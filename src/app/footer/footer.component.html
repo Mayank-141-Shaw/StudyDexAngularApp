@@ -1,0 +1,33 @@
+<footer [ngClass]="['row']">
+    <section [ngClass]="['container', 'bg-dark', 'col-md-12', 'row']">
+        <div id="links1" [ngClass]="['col-md-3']">
+            <ul>
+                <li><a href="#">StudyDex Business</a></li>
+                <li><a href="#">Teach</a></li>
+                <li><a href="#">Get the App</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div id="links2" [ngClass]="['col-md-3']">
+            <ul>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Help and Support</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+        </div>
+        <div id="links3" [ngClass]="['col-md-3']">
+            <ul>
+                <li><a href="#">Terms and Conditions</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+            </ul>
+        </div>
+        
+        <div id="links4" [ngClass]="['col-md-3']">
+            <ul>
+                <li><p>StudyDEX <span>&#169;</span>, 2021</p></li>
+                <li><a (click)="checkLogIn()"><span style="font-size: large;">Study<strong style="color: rgb(73, 186, 238); font-size: larger;">DEX</strong></span></a></li>
+            </ul>
+        </div>
+    </section>
+</footer>

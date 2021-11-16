@@ -1,0 +1,32 @@
+footer{
+    color: white;
+    margin-top: auto;
+}
+
+footer section.container{
+    width: 100vw;
+    padding: 15px;
+}
+
+footer li{
+    list-style-type: none;
+}
+
+footer a{
+    color: white;
+}
+
+footer a:hover{
+    color: rgb(209, 208, 208);
+    text-decoration: none;
+}
+
+footer #links4{
+    margin-left: auto;
+     padding-right: 4vw; 
+     text-align: right;
+}
+
+footer #links4 a:hover{
+    color: white;
+}

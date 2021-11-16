@@ -1,0 +1,24 @@
+.container-top{
+    margin-top: 30px;
+}
+
+#courses img{
+    width: 300px;
+  }
+  
+  #courses.container{
+    border: 1px solid black;
+    box-shadow: 2px 2px 10px black;
+    border-radius: 10px;
+    background: -webkit-linear-gradient(to right, #24eedd, #24b5ee, #248cee, #2453ee);
+    background: linear-gradient(to right, #24eedd, #24b5ee, #248cee, #2453ee);
+  }
+  
+  #courses a{
+    text-decoration: none;
+    color: black;
+  }
+  
+  #courses figcaption{
+    background-color: rgba(130, 154, 202, 0.664);
+  }

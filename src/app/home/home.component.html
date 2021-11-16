@@ -1,0 +1,45 @@
+<div class="container container-top">
+    <div class="container row" id="cover-banner">
+        
+        <div id="floating-box" class="col-lg-6 d-flex">
+            <div class="px-3 py-4 p-md-5 mx-md-4">
+                <h1>Get Started With Learning</h1>
+                <h2>Try our new features!</h2>
+                <div class="feature-btn">
+                    <button class="btn btn-info">Get Started</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6 d-flex align-items-center gradient-custom-2">
+            <div class="text-white px-3 py-4 p-md-5 mx-md-4">
+              <h4 class="mb-4">We are more than just a company</h4>
+              <p class="small mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+          </div>
+    </div>
+
+    <div class="container" id="welcome">
+        Welcome User {{currentUser.email}}
+    </div>
+
+    <h3>Our Courses</h3>
+    <div class="container row my-md-5" id="courses" *ngFor="let cor of _courses">
+        <div class="col-md-12">
+            <a [routerLink]="['/coursetab', cor.id]">
+                <div class="container row  p-md-5 my-md-3 ">
+                    <div class="col-md-12 card-layout">
+                        <figure class="row ">
+                            <img class="col-md-4" src={{cor.img}}>
+                            <figcaption class="container col-md-8">
+                                <h5>{{cor.title}}</h5>
+                                <p>{{cor.desc}}</p>
+                                <p>{{cor.author}}, {{cor.rating}}, {{cor.price}}</p>
+                                <p>Users : {{cor.user_count}}</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>

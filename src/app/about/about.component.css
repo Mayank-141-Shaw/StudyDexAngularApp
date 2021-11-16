@@ -1,0 +1,56 @@
+.container{
+    margin-top: 50px;
+}
+
+#founders{
+    background-color: rgb(207, 206, 206);
+    border: 2px solid black;
+    margin: auto;
+    margin-bottom: 2vw;
+}
+
+#founders section article{
+    margin-bottom: 20px;
+}
+
+#founders section article img{
+    width: 20%;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+#founders section article div{
+    width: 50%;
+    background-color: rgb(165, 164, 164);
+    border-left: 5px solid rgb(11, 105, 168);
+    font-size: large;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-bottom: 0;
+    padding-bottom: 0;
+    margin: 0 2px;
+}
+
+#founders section article div p{
+    margin-top: 20px;
+    padding: 0;
+}
+
+#founders section article aside{
+    width: 40%;
+    text-align: center;
+    
+    margin: auto 10px;
+
+}
+
+#founders section article aside q{
+    font-style: italic;
+    font-size: large;
+    color: black;
+    font-weight: 900;
+}
+
+#founders section article aside p{
+    font-size: x-large;
+}

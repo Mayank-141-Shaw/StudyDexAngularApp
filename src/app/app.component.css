@@ -1,0 +1,14 @@
+.all{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(240, 240, 240);
+}
+
+.hidden-header-block{
+    height: 50px;
+}
+
+.hidden-footer-block{
+    height: 10rem;
+}
